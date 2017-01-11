@@ -13,6 +13,7 @@
          sf-field-model
          ng-disabled="form.readonly"
          schema-validate="form"
+         ignoreMouseWheel
          name="{{form.key.slice(-1)[0]}}"
          aria-describedby="{{form.key.slice(-1)[0] + 'Status'}}">
 
@@ -29,6 +30,7 @@
            class="form-control {{form.fieldHtmlClass}}"
            id="{{form.key.slice(-1)[0]}}"
            sf-field-model
+           ignoreMouseWheel
            ng-disabled="form.readonly"
            schema-validate="form"
            name="{{form.key.slice(-1)[0]}}"
